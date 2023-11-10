@@ -1,5 +1,5 @@
 # Zigbee2BLE
-Gateway Zigby in BLE on modules with TLSR825x.
+Gateway Zigbee in BLE on modules with TLSR825x.
 
 
 Первая тестовая версия.
