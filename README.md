@@ -12,7 +12,7 @@ Gateway Zigby in BLE on modules with TLSR825x.
 
 1. Прошить файл [zb2ble.bin](https://github.com/pvvx/Zigbee2BLE/raw/master/out/zb2ble.bin) с помощью TlsrComProg.py в TB-03F-kit, соединив 2 ногу чипа USB-COM с SWS:
 
-[TB-03F-KIT-PGM.gif](https://github.com/pvvx/TlsrComProg825x/raw/main/Doc/img/TB-03F-KIT-PGM.gif)
+[TB-03F-KIT-PGM.gif](https://github.com/pvvx/Zigbee2BLE/blob/master/img/TB-03F-KIT-PGM.gif)
 
 ```
 python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
@@ -30,7 +30,7 @@ python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
 
 **Подключение Zigbee устройства**
 
-1.	Соединиться с `z2b_xxxxxx` BLE устройством в [Zigbee2ble.html](https://pvvx.github.io/ATC_MiThermometer/Zigbee2ble.html).
+1.	Соединиться с `z2b_xxxxxx` BLE устройством в [Zigbee2ble.html](https://pvvx.github.io/Zigbee2ble/Zigbee2ble.html).
 2.	Выставить галку “Auto Joinng”.
 3.	На подключаемом Zigbee устройстве нажать кнопку для регистрации, а на странице "Zigbee2ble" - "Permit join 250 sec" или кнопку "prog" на TB-03F-kit.
 4.	Дождаться регистрации устройства - в таблице будут указаны имя устройства и binding кластеры. Для ts0201 может не быть списка кластеров, но данные по температуре, влажности и батареи появится спустя некоторое время.
