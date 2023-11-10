@@ -12,7 +12,7 @@ Gateway Zigby in BLE on modules with TLSR825x.
 
 1. Прошить файл [zb2ble.bin](https://github.com/pvvx/Zigbee2BLE/raw/master/out/zb2ble.bin) с помощью TlsrComProg.py в TB-03F-kit, соединив 2 ногу чипа USB-COM с SWS:
 
-[TB-03F-KIT-PGM.gif](https://github.com/pvvx/Zigbee2BLE/blob/master/img/TB-03F-KIT-PGM.gif)
+![TB-03F-KIT-PGM.gif](https://github.com/pvvx/Zigbee2BLE/blob/master/img/TB-03F-KIT-PGM.gif)
 
 ```
 python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
@@ -39,4 +39,5 @@ python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
 
 Пример работы с z03mmc:
 
-[z03mmc.png](https://github.com/pvvx/Zigbee2BLE/blob/master/img/z03mmc.png?raw=true)
+![z03mmc.png](https://github.com/pvvx/Zigbee2BLE/blob/master/img/z03mmc.png?raw=true)
+
