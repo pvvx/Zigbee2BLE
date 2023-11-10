@@ -4,7 +4,7 @@ Gateway Zigby in BLE on modules with TLSR825x.
 
 Первая тестовая версия.
 
-Текущая версия пока работает с такими Zigbee датчиками:  z03mmc, ts0201, Aqura (LUMI.weater).
+Текущая версия пока работает с такими Zigbee датчиками:  [z03mmc](https://github.com/pvvx/z03mmc), [ts0201](https://pvvx.github.io/TS0201_TZ3000), Aqura (LUMI.weater)
 
 Используется TB-03F-kit. Он будет являться координатором в сети Zigbee и BLE устройством, перетранслирующим данные с Zigbee в BLE рекламу в формате BTHome v2.
 
