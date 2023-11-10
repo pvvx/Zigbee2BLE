@@ -34,10 +34,13 @@ python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
 2.	Выставить галку “Auto Joinng”.
 3.	На подключаемом Zigbee устройстве нажать кнопку для регистрации, а на странице "Zigbee2ble" - "Permit join 250 sec" или кнопку "prog" на TB-03F-kit.
 4.	Дождаться регистрации устройства - в таблице будут указаны имя устройства и binding кластеры. Для ts0201 может не быть списка кластеров, но данные по температуре, влажности и батареи появится спустя некоторое время.
-5.	Отключиться от `z2b_xxxxxx` BLE устройства и настроить прием BLE рекламы в интеграции “BTHome” в “Home Assistant” или в другой системе…
+5.	Отключиться от `z2b_xxxxxx` BLE устройства и настроить прием BLE рекламы в интеграции “BTHome” в “Home Assistant” или в другой системе...
 
 
-Пример работы с z03mmc:
+![Zigbee2ble.png](https://github.com/pvvx/Zigbee2BLE/blob/master/img/Zigbee2ble.png?raw=true)
+
+
+Пример приема замеров от z03mmc через Zigbee2BLE в “Home Assistant”:
 
 ![z03mmc.png](https://github.com/pvvx/Zigbee2BLE/blob/master/img/z03mmc.png?raw=true)
 
