@@ -10,9 +10,9 @@ Gateway Zigby in BLE on modules with TLSR825x.
 
 **Подготовка**
 
-1. Прошить файл [zb2ble.bin](https://github.com/pvvx/Zigbee2BLE/blob/master/out/zb2ble.bin) с помощью TlsrComProg.py в TB-03F-kit, соединив 2 ногу чипа USB-COM с SWS:
+1. Прошить файл [zb2ble.bin](https://github.com/pvvx/Zigbee2BLE/raw/master/out/zb2ble.bin) с помощью TlsrComProg.py в TB-03F-kit, соединив 2 ногу чипа USB-COM с SWS:
 
-[TB-03F-KIT-PGM.gif](https://raw.githubusercontent.com/pvvx/TlsrComProg825x/main/Doc/img/TB-03F-KIT-PGM.gif)
+[TB-03F-KIT-PGM.gif](https://github.com/pvvx/TlsrComProg825x/raw/main/Doc/img/TB-03F-KIT-PGM.gif)
 
 ```
 python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
@@ -20,7 +20,7 @@ python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
 
 После прошивки запустить модуль TB-03F-kit, нажав кнопку "rst" на нем.
 
-2. Запустить [Zigbee2ble.html](https://pvvx.github.io/ATC_MiThermometer/Zigbee2ble.html). 
+2. Запустить [Zigbee2ble.html](https://pvvx.github.io/Zigbee2ble/Zigbee2ble.html). 
 
 3. Соединиться с `z2b_xxxxxx` BLE устройством.
 
@@ -39,4 +39,4 @@ python3 TlsrComProg.py -pCOM10 -u we 0 out\zb2ble.bin
 
 Пример работы с z03mmc:
 
-[z03mmc.png](https://github.com/pvvx/Zigbee2BLE/blob/master/img/z03mmc.png)
+[z03mmc.png](https://github.com/pvvx/Zigbee2BLE/blob/master/img/z03mmc.png?raw=true)
