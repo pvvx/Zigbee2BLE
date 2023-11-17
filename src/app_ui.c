@@ -143,8 +143,9 @@ void buttonKeepPressed(u8 btNum){
 void buttonShortPressed(u8 btNum){
 	if(btNum == VK_SW1) {
 		if(zb_isDeviceJoinedNwk()){
+			u8 duration = zb_getMacAssocPermit() ? 0 : 250;
 			/* toggle local permit Joining */
-			zb_nlmePermitJoiningRequest(250);
+			zb_nlmePermitJoiningRequest(duration);
 		}
 	}
 	else if(btNum == VK_SW2){

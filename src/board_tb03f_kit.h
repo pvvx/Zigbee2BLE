@@ -87,18 +87,18 @@ extern "C" {
 #define B_LIGHT_PWM_SET()			PWM_B_CHANNEL_SET()
 
 
-#define LED_W						GPIO_PB5
-#define PB3_FUNC					AS_GPIO
-#define PB3_OUTPUT_ENABLE			1
-#define PB3_INPUT_ENABLE			0
-
 #define LED_E						GPIO_PB4
 #define PB4_FUNC					AS_GPIO
 #define PB4_OUTPUT_ENABLE			1
 #define PB4_INPUT_ENABLE			0
 
-#define LED_PERMIT					LED_W  // MacAssocPermit
-#define LED_POWER					LED_E  // Exception, Debug
+#define LED_W						GPIO_PB5
+#define PB5_FUNC					AS_GPIO
+#define PB5_OUTPUT_ENABLE			1
+#define PB5_INPUT_ENABLE			0
+
+#define LED_POWER					LED_W  // Exception, Debug
+#define LED_PERMIT					LED_E  // MacAssocPermit
 
 #define WARM_LIGHT_PWM_CHANNEL		PWM_R_CHANNEL
 #define COOL_LIGHT_PWM_CHANNEL		PWM_B_CHANNEL

@@ -441,6 +441,11 @@ static void sampleGW_zclCfgReadRspCmd(zclIncoming_t *pInMsg)
 			if(zcl_analogDataType(pReadCfgRspCmd->attrList[i].dataType)){
 				dataLen = zcl_getAttrSize(pReadCfgRspCmd->attrList[i].dataType, pReadCfgRspCmd->attrList[i].reportableChange);
 				memcpy(pBuf, pReadCfgRspCmd->attrList[i].reportableChange, dataLen);
+				for(int x; x < (dataLen >> 1); x++) {
+					u8 z = pBuf[x];
+					pBuf[x] = pBuf[dataLen - x - 1];
+					pBuf[dataLen - x - 1] = z;
+				}
 				pBuf += dataLen;
 			}
 		}else{
