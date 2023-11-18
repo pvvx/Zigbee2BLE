@@ -2,7 +2,9 @@
 Gateway Zigbee in BLE on modules with TLSR825x.
 
 
-Первая тестовая версия.
+Первые тестовые версии (проверка концепций).
+
+Further development of the project involves eliminating [problems in the implementation of the BTHome](https://github.com/Bluetooth-Devices/bthome-ble/issues/94) protocol extension.
 
 Текущая версия пока работает с такими Zigbee датчиками:  [z03mmc](https://github.com/pvvx/z03mmc), [ts0201](https://pvvx.github.io/TS0201_TZ3000), Aqura (LUMI.weater)
 
